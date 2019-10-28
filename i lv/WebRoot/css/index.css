@@ -1,0 +1,301 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding:0;
+	
+}
+
+.all{
+	width:100%;
+	height:100%;
+}
+/* 头部 */
+.all .t-wrap{
+	width:100%;
+	height:30px;
+	background-color: #F8F8F8;
+}
+.all .t-wrap .index-header{
+	height:30px;
+	width:1200px;
+	margin: 0 auto;
+	color:#f80;	
+	font-size: 13px;
+	line-height: 30px;
+}
+.all .t-wrap .index-header .pull-right span{
+	padding-right: 15px;
+}
+.all .t-wrap .index-header .pull-right span a:hover{
+	color:#337ab7;
+}
+.all .t-wrap .index-header .pull-right .word a{
+	color: #f80;
+}
+.all .t-wrap .index-header .pull-right .word a:hover{
+	color: #f80;
+}
+.all .t-wrap .index-header a{
+	text-decoration: none;	
+}
+/*搜索部分*/
+.all .search{
+	height:130px;
+	width:100%;
+	margin-top:10px;
+	
+	/* 防止margin塌陷 */
+	overflow: hidden;
+}
+.all .search .search-inner{
+	height:130px;
+	width:1200px;
+	margin: 0 auto;
+}
+.all .search .search-inner img{
+	display:inline-block;
+	line-height:130px;
+}
+.all .search .search-inner .location{
+	margin-top:37px;
+}
+
+.all .search .search-inner .searchBox{
+	width:350px;
+	height:35px;
+	margin-top:37px;
+	margin-left:130px;
+	border:2px solid #f80;
+}
+.all .search .search-inner .searchBtn{
+	display:block;
+	height: 35px;
+	width:70px;
+	margin-top:37px;
+	margin-left:480px;
+	background-color: #f80;
+	line-height: 35px;
+	text-align: center;
+	outline:none;
+	border:none;
+}
+/*导航栏区域*/
+.all .guide-inner{
+	width:100%;
+	height:40px;
+	background-color: #2dbb55;
+	min-width: 1200px;
+}
+.all .guide-inner .guide-con{
+	height:40px;
+	width:1200px;
+	margin: 0 auto;
+}
+.all .guide-inner .guide-con .nav-pills a{
+	color: #fff;
+}
+.all .guide-inner .guide-con .nav-pills a:hover{
+	background-color:#38c249;
+}
+/*页面主体内容*/
+.all .index-main{
+	width:100%;
+	height:440px;
+}
+.all .index-main .index-main-c{
+	height: 440px;
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+.all .index-main .index-main-c .sort{
+	height:440px;
+	width:293px;
+	background-color: #2dbb55;
+	overflow: hidden;
+}
+.all .index-main .index-main-c .sort .list-group-item{
+	display:inline-block;
+	height: 41px;
+	width:293px;
+	border-radius: 0;
+	font-weight: bold;
+}
+.all .index-main .index-main-c .index-swiper{
+	height: 440px;
+	width: 907px;
+}
+.all .index-main .index-main-c .index-swiper .item img{
+	width: 907px;
+	height: 440px;
+}
+.all .index-info{
+
+	width:100%;
+	margin-top:50px;
+}
+.all .index-info .index-info-top{
+	width:1200px;
+	margin: 0 auto;
+	margin-bottom:13px;
+	border-bottom: 3px solid #eceef4;
+}
+.all .index-info .index-info-main{
+	width:1200px;
+	margin: 0 auto;
+	height: 537px;
+	overflow: hidden;
+}
+.all .index-info .index-info-main .goods-content{
+	height: 220px;
+	width: 227px;
+	float: left;
+	overflow: hidden;
+	margin-right:13px;
+	border:1px solid #eee;
+	margin-bottom: 10px;
+}
+.all .index-info .index-info-main .goods-content:hover{
+	border:1px solid #00d0d4;
+}
+.all .index-info .index-info-main .goods-content div{
+	margin:10px 10px 0 10px;
+}
+.all .index-info .index-info-main .goods-content .goods-name{
+	display:inline-block;
+	font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+    float: left;
+    
+}
+.all .index-info .index-info-main .goods-content .goods-price{
+	display:inline-block;
+	color:#f60;
+	font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+    float: right;
+}
+.all .index-info .index-info-main .goods-content .goods-intro{
+	display:inline-block;
+	margin-top:10px;
+	padding:0 10px;
+	color: #333;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+
+
+
+
+
+/*  
+.all .index-info .index-info-main .dujia{
+	height: 262px;
+	width: 227px;
+	float: left;
+	margin:0 13px 13px 0;
+	border: 1px solid #eee;
+	overflow: hidden;
+	position: relative;
+}
+.all .index-info .index-info-main .dujia:hover{
+	border:1px solid #00d0d4;
+}
+.all .index-info .index-info-main .dujia .dujia-top{
+	height: 160px;
+	width: 227px;
+}
+.all .index-info .index-info-main .dujia .dujia-top img{
+	width: 227px;
+}
+.all .index-info .index-info-main .dujia .dujia-bottom{
+	width:227px;
+	height: 102px;
+	padding: 13px 10px;
+}
+.all .index-info .index-info-main .dujia .dujia-bottom .dujia-bottom-words{
+	color: #333;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+.all .index-info .index-info-main .dujia .dujia-bottom .dujia-bottom-price{
+	color: #ff7400;
+	font-size: 20px;
+	font-weight:bold;
+}
+.all .index-info .index-info-main .dujia .dujia-title{
+	height: 61px;
+	width: 120px;
+	background:rgba(0,0,0,0.6);
+	position: absolute;
+	top:80px;
+	left:53.5px;
+	text-align: center;
+	
+}
+.all .index-info .index-info-main .dujia .dujia-title .dujia-title-main{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+
+}
+.all .index-info .index-info-main .dujia .dujia-title .dujia-title-sub{
+	color: #ffde00;
+	margin-top:5px;
+	font-size: 14px;
+}
+
+*/
+.all .toTop{
+	height: 100px;
+	width: 50px;
+	border:1px solid #eee;
+	position: fixed;
+	top:60%;
+	right:30px;;
+}
+.all .toTop .up{
+	height: 49px;
+	width: 50px;
+
+	text-align: center;
+}
+.all .toTop .up a{
+	text-decoration: none;
+}
+.all .toTop .up a span{
+	line-height: 49px;
+	font-size: 25px;
+	color: black;
+}
+.all .toTop .up a:hover{
+	color:black;
+}
+
+.all .toTop .cart{
+	height: 49px;
+	border-bottom: 1px solid #eee;
+	width: 50px;
+	text-align: center;
+}
+.all .toTop .cart a{
+	text-decoration: none;
+}
+.all .toTop .cart a span{
+	line-height: 49px;
+	font-size: 25px;
+	color: black;
+}
+.all .toTop .cart a:hover{
+	color:black;
+}
+
+
+
+
+
+

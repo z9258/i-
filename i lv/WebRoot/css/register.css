@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+.all{
+	height:100%;
+	width: 100%;
+	background: url(../images/bg1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.all .register-form{
+	height: 500px;
+	width: 600px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top:-250px;
+	margin-left:-300px;
+	text-align: center;
+}
+.all .register-form .form-control{
+	display:inline-block;
+	width: 300px;
+	margin-top:30px;
+	background-color: transparent;
+}
+.all .register-form .btn-default{
+	display: inline-block;
+	margin-top:20px;
+	background-color: transparent;
+}

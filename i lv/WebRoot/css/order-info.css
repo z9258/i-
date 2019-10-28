@@ -1,0 +1,155 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.all{
+	width: 100%;
+	height: 100%;
+}
+.all .top{
+	height: 130px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.all .wrap{
+	margin-top:30px;
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.all .wrap .intro{
+	height: 320px;
+	width: 1200px;
+}
+.all .wrap .intro .image{
+	width: 480px;
+	height: 320px;
+}
+.all .wrap .intro .image img{
+	width: 480px;
+	height: 320px;
+}
+.all .wrap .intro .info{
+	margin-left:20px;
+	width: 700px;
+	height: 320px;
+}
+.all .wrap .intro .info p{
+	font-size: 20px;
+}
+.all .wrap .intro .info .info-words{
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+.all .wrap .intro .info .info-words .info-intro{
+	color: #f80;
+	font-size: 14px;
+	
+}
+.all .wrap .intro .info .info-price{
+	border: 1px solid #ffe3c5;
+	height: 100px;
+	width: 700px;
+	background: #fffdf5;
+}
+.all .wrap .intro .info .info-price .info-price-top{
+	height: 59px;
+	width: 700px;
+	border-bottom: 1px dotted #ccc;
+	color: #ff4000;
+	padding-top:20px;
+	padding-left:10px;
+}
+.all .wrap .intro .info .info-price .info-price-top .min-price{
+	font-size: 25px;
+	font-weight: bold;
+}
+.all .wrap .intro .info .info-price .info-price-bot{
+	height:40px;
+	line-height:40px;
+	padding-left:10px;
+}
+.all .wrap .intro .info .info-price .info-price-bot .ticket-info{
+	color: #999;
+	font-size:12px;
+}
+.all .wrap .intro .info .info-price .info-price-bot a{
+	text-decoration: none;
+}
+.all .wrap .intro .info .info-price .info-price-bot .ticket{
+	border: 1px solid #f55;
+	color: #f55;
+	padding: 2px;
+	margin-left: 10px;
+}
+.all .wrap .intro .info .history-info{
+	height: 33px;
+	width: 700px;
+	border-bottom:1px dotted #ccc;
+	font-size: 12px;
+	line-height:33px;
+	padding-right: 10px;
+}
+.all .wrap .intro .info .history-info a{
+	text-decoration: none;
+	color: #00afc7;
+}
+.all .wrap .gobuy{
+	margin-top:30px;
+	height:400px;
+	width: 1200px;
+	border:3px solid #f80;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.all .wrap .gobuy .row{
+	margin-top:20px;
+	margin-left:30px;
+}
+.all .wrap .gobuy .date{
+	width: 230px;
+}
+.all .wrap .blank{
+	height: 30px;
+	width: 1200px;
+}
+.all .wrap .gobuy .price{
+	height: 270px;
+	width: 1110px;
+	margin:0 auto;
+}
+.all .wrap .gobuy .price .adult-price{
+	height: 79px;
+	width:1110px;
+	border-bottom: 1px dotted #ccc;
+}
+.all .wrap .gobuy .price .student-price{
+	height: 79px;
+	width:1110px;
+	border-bottom: 1px dotted #ccc;
+}
+.all .wrap .gobuy .price .children-price{
+	height: 79px;
+	width:1110px;
+	border-bottom: 1px dotted #ccc;
+}
+.all .wrap .gobuy .price .type{
+	font-size: 20px;
+	line-height: 79px;
+	padding-right: 20px;
+}
+.all .wrap .gobuy .price .max-price{
+	font-size: 20px;
+	color: #ff4000;
+	padding-right: 20px;
+}
+.all .wrap .gobuy .price .btn{
+	margin-left: 20px;
+}
+
+.all .wrap .gobuy .price .display{
+	width: 50px;
+	text-align: center;
+}
